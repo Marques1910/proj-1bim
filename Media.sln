@@ -5,6 +5,8 @@ VisualStudioVersion = 17.12.35514.174 d17.12
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Media", "Media\Media.csproj", "{257E53D8-7212-4D9B-8CF6-560A7B961532}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Proj Prova1Bim", "..\..\..\Downloads\tempAumento-master\tempAumento-master\Proj Prova1Bim\Proj Prova1Bim.csproj", "{567E5A15-AFC6-43F8-90CF-97D901344E2E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{257E53D8-7212-4D9B-8CF6-560A7B961532}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{257E53D8-7212-4D9B-8CF6-560A7B961532}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{257E53D8-7212-4D9B-8CF6-560A7B961532}.Release|Any CPU.Build.0 = Release|Any CPU
+		{567E5A15-AFC6-43F8-90CF-97D901344E2E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{567E5A15-AFC6-43F8-90CF-97D901344E2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{567E5A15-AFC6-43F8-90CF-97D901344E2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{567E5A15-AFC6-43F8-90CF-97D901344E2E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
