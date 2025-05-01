@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("temperatura")]
+[assembly: AssemblyTitle("Proj Prova1Bim")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("temperatura")]
+[assembly: AssemblyProduct("Proj Prova1Bim")]
 [assembly: AssemblyCopyright("Copyright ©  2025")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("fd23fe50-3a17-4d2c-9910-afe23a6de165")]
+[assembly: Guid("567e5a15-afc6-43f8-90cf-97d901344e2e")]
 
 // Version information for an assembly consists of the following four values:
 //

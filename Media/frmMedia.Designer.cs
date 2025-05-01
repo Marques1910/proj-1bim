@@ -1,6 +1,6 @@
 ﻿namespace Media
 {
-    partial class Form1
+    partial class frmMedia
     {
         /// <summary>
         /// Required designer variable.
@@ -36,6 +36,7 @@
             this.numMedia1 = new System.Windows.Forms.NumericUpDown();
             this.numMedia2 = new System.Windows.Forms.NumericUpDown();
             this.numMedia3 = new System.Windows.Forms.NumericUpDown();
+            this.btnSair = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.numMedia1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.numMedia2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.numMedia3)).BeginInit();
@@ -107,11 +108,22 @@
             this.numMedia3.Size = new System.Drawing.Size(120, 20);
             this.numMedia3.TabIndex = 10;
             // 
-            // Form1
+            // btnSair
+            // 
+            this.btnSair.Location = new System.Drawing.Point(147, 279);
+            this.btnSair.Name = "btnSair";
+            this.btnSair.Size = new System.Drawing.Size(75, 23);
+            this.btnSair.TabIndex = 11;
+            this.btnSair.Text = "SAIR";
+            this.btnSair.UseVisualStyleBackColor = true;
+            this.btnSair.Click += new System.EventHandler(this.btnSair_Click);
+            // 
+            // frmMedia
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(584, 551);
+            this.Controls.Add(this.btnSair);
             this.Controls.Add(this.numMedia3);
             this.Controls.Add(this.numMedia2);
             this.Controls.Add(this.numMedia1);
@@ -120,7 +132,7 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Name = "Form1";
+            this.Name = "frmMedia";
             this.Text = "Form1";
             ((System.ComponentModel.ISupportInitialize)(this.numMedia1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.numMedia2)).EndInit();
@@ -140,6 +152,7 @@
         private System.Windows.Forms.NumericUpDown numMedia1;
         private System.Windows.Forms.NumericUpDown numMedia2;
         private System.Windows.Forms.NumericUpDown numMedia3;
+        private System.Windows.Forms.Button btnSair;
     }
 }
 

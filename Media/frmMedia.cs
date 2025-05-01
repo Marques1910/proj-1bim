@@ -10,10 +10,24 @@ using System.Windows.Forms;
 
 namespace Media
 {
-    public partial class Form1 : Form
+    public partial class frmMedia : Form
     {
         private double media, num1, num2, num3;
-        public Form1()
+
+        private void btnSair_Click(object sender, EventArgs e)
+        {
+            DialogResult resp;
+            resp = MessageBox.Show("Deseja realmente sair?",
+                                   "Calculo da Média",
+                                   MessageBoxButtons.YesNo,
+                                   MessageBoxIcon.Question);
+            if (resp == DialogResult.Yes)
+            {
+                this.Close();
+            }
+        }
+
+        public frmMedia()
         {
             InitializeComponent();
         }

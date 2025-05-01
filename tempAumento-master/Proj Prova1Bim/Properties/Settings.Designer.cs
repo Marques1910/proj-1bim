@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace temperatura.Properties
+namespace Proj_Prova1Bim.Properties
 {
 
 
